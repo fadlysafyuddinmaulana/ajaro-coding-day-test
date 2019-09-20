@@ -14,17 +14,17 @@ $result = mysqli_query($mysqli, "SELECT * FROM tbbarang ORDER BY id DESC");
 </head>
 
 <body>
-<a class="button left"href="add.php">Add New User</a><br/><br/>
+<a class="button" href="add.php">Tambah</a>
 
     <table class="center border"width="80%" border=1>
     <p class="title">Data Barang</p>
 
     <tr>
-        <th>Kode</th> <th>Nama</th> <th>Harga</th> <th>Aksi</th>
+        <th width="15%">Kode</th> <th width="30%">Nama</th> <th width="30%">Harga</th> <th width="30%">Aksi</th>
     </tr>
     <?php  
     while($user_data = mysqli_fetch_array($result)) {         
-        echo "<tr class=center>";
+        echo "<tr>";
         echo "<td>".$user_data['kode']."</td>";
         echo "<td>".$user_data['nama']."</td>";    
         echo "<td><p>Rp.".$user_data['harga']."</p></td>";
