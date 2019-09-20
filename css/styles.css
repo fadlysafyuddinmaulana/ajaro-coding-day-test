@@ -31,22 +31,17 @@ tr{
 .center{
     position: relative;
     left: 120px;
-    top:30px;
+    top:55px;
 
 }
 
-.left{
-    position: relative;
-    left:1085px;
-    top:90px;
-}
 
 .title{
     font-weight:bold;
     font-size: 20px;
     position: relative;
     left:120px;
-    top:37px;
+    top:50px;
     width: 950px;
 }
 
